@@ -11,7 +11,7 @@ function add() {
   const dayExists = nlwSetup.dayExists(today)
 
   if (dayExists) {
-    alert("Opa!!❌ Você já adicionou o dia de hoje, volte amanhã.😉")
+    alert("Opa!❌ Você já adicionou o dia de hoje, volte amanhã.😉")
     return
   }
 
